@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coursework"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+get-sorted = 'get-sorted:start_select_sorted'
+get-banch = 'get-banch:start_get_by_date'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
